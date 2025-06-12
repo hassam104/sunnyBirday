@@ -4,18 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Happy Birthday Sunny</title>
-    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" />
+
+    <!-- GSAP for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Confetti Script -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
   </head>
   <body class="landing-page">
     <audio autoplay loop>
       <source src="public/music.mp3" type="audio/mpeg" />
     </audio>
+
     <div class="container">
-      <h1 class="title">Happy 24th Birthday</h1>
-      <h2 class="name">Sunny 🌸</h2>
-      <p class="subtext">You are the sunshine of my life</p>
-      <button class="btn" onclick="window.location.href='surprise.html'">
+      <h1 class="title">🎂 Happy 24th Birthday 🎂</h1>
+      <h2 class="name">To My Love, Sunny 💖</h2>
+      <p class="subtext">You bring light, joy, and magic into my world 🌈</p>
+      <button class="btn" onclick="startSurprise()">
         Click to Reveal Surprise 🎁
       </button>
     </div>
