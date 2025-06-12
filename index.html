@@ -9,7 +9,7 @@
   </head>
   <body class="landing-page">
     <audio autoplay loop>
-      <source src="./public/music.mp3" type="audio/mpeg" />
+      <source src="public/music.mp3" type="audio/mpeg" />
     </audio>
     <div class="container">
       <h1 class="title">Happy 24th Birthday</h1>
@@ -20,11 +20,6 @@
       </button>
     </div>
 
-    <script>
-      gsap.from(".title", { y: -100, opacity: 0, duration: 1 });
-      gsap.from(".name", { x: -100, opacity: 0, delay: 0.5, duration: 1 });
-      gsap.from(".subtext", { x: 100, opacity: 0, delay: 1, duration: 1 });
-      gsap.from(".btn", { scale: 0, opacity: 0, delay: 1.5, duration: 1 });
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
