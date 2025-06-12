@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  color: #333;
+  overflow-x: hidden;
+}
+
+.landing-page .container,
+.surprise-page .message-box {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.title {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #ff4081;
+}
+
+.name {
+  font-size: 2.5em;
+  color: #d81b60;
+}
+
+.subtext {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.btn {
+  background: #ff4081;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #d81b60;
+}
+
+.message-box h1 {
+  font-size: 2.8em;
+  color: #ff4081;
+}
+
+.message-box p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.sign {
+  margin-top: 30px;
+  font-style: italic;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px 10px;
+}
+
+.gallery img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}

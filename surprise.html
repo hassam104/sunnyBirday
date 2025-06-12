@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For You Sunny</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  </head>
+  <body class="surprise-page">
+    <div class="message-box">
+      <h1>Dear Sunny 💖</h1>
+      <p>
+        On your special day, I just want to say... <br />
+        You light up my world with your smile, <br />
+        Your laughter is my favorite sound, <br />
+        And every moment with you is magic. <br /><br />
+        May your 24th be as beautiful and unforgettable as you are.
+      </p>
+      <p class="sign">— With love, Saam 💌</p>
+    </div>
+
+    <div class="gallery">
+      <img src="public/images/img1.jpg" alt="Placeholder 1" />
+      <img src="public/images/img2.jpg" alt="Placeholder 2" />
+      <img src="public/images/img3.jpg" alt="Placeholder 3" />
+    </div>
+
+    <script>
+      gsap.from(".message-box", { opacity: 0, y: 50, duration: 1 });
+      gsap.from(".gallery img", {
+        opacity: 0,
+        stagger: 0.2,
+        delay: 1,
+        scale: 0.8,
+        duration: 0.8,
+      });
+    </script>
+  </body>
+</html>
