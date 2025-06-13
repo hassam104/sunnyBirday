@@ -99,3 +99,173 @@ body {
     opacity: 0;
   }
 }
+
+.next-button {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.next-button button {
+  background: #ff66a3;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.next-button button:hover {
+  background: #e60073;
+}
+
+.celebration-page {
+  background: linear-gradient(to top right, #ffdde1, #ee9ca7);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding: 50px 20px;
+  overflow-x: hidden;
+}
+
+.birthday-message {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #d10068;
+  margin-bottom: 30px;
+  display: none;
+}
+
+#birthdayText {
+  display: block;
+}
+
+.cake-container {
+  margin: 40px auto;
+  position: relative;
+  width: 200px;
+  cursor: pointer;
+}
+
+.plate {
+  width: 220px;
+  height: 20px;
+  background: #ddd;
+  border-radius: 50%;
+  margin: 0 auto -10px;
+}
+
+.cake {
+  width: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.layer {
+  height: 40px;
+  background: #ff66a3;
+  border-radius: 10px;
+}
+
+.layer-bottom {
+  width: 100%;
+}
+
+.layer-middle {
+  width: 90%;
+  margin: 0 auto;
+  background: #ff85b3;
+}
+
+.layer-top {
+  width: 80%;
+  margin: 0 auto;
+  background: #ffaacc;
+}
+
+.icing {
+  width: 80%;
+  height: 10px;
+  background: #fff;
+  border-radius: 10px;
+  margin: -5px auto 0;
+  position: relative;
+  z-index: 2;
+}
+
+.drip {
+  width: 10px;
+  height: 15px;
+  background: #fff;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+}
+
+.drip1 {
+  left: 30%;
+}
+.drip2 {
+  left: 50%;
+}
+.drip3 {
+  left: 70%;
+}
+
+.candle {
+  position: absolute;
+  top: -30px;
+  left: calc(50% - 5px);
+  width: 10px;
+  height: 30px;
+  background: #fff;
+  border-radius: 2px;
+}
+
+.flame {
+  width: 10px;
+  height: 15px;
+  background: radial-gradient(circle, #ffff66, #ff9900);
+  border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  left: 0;
+  animation: flicker 0.4s infinite alternate;
+}
+
+@keyframes flicker {
+  0% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2) rotate(10deg);
+    opacity: 0.85;
+  }
+}
+
+.click-text {
+  font-size: 0.9rem;
+  color: #a1005d;
+  margin-top: 10px;
+}
+
+.celebration-buttons {
+  margin-top: 30px;
+}
+
+.celebration-buttons button {
+  background: #ff66a3;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  margin: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.celebration-buttons button:hover {
+  background: #e60073;
+}
